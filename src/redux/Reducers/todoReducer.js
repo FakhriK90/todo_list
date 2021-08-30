@@ -13,16 +13,15 @@ const initialState ={
 const todoReducer = (state = initialState, { type, payload }) => {
     switch (type) {
         case 'ADD_TODO':
-            return{
+            return{...state,
                 tasks: [...state.tasks, { id: uuidv4(), Task: payload, Done: false }],
-        show: state.show,
+     
             }
 
         case 'DELETE':
         return {
             ...state,
-            tasks: state.tasks.filter((task) => task.id !== payload),
-            show: state.show,
+            tasks: state.tasks.filter((task) => task.id !== payload.id)
         }
         
         case 'TASK_State':
@@ -38,7 +37,7 @@ const todoReducer = (state = initialState, { type, payload }) => {
 
             case 'SHOW':
                 return{
-                    ...state, show: payload
+                    ...state, Show: payload
                 }
         default:
            return state

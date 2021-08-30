@@ -6,8 +6,9 @@ import Task from './Task';
 const ListTask = () => {
     const todos = useSelector((state) => state.tasks)
   const show = useSelector((state) => state.Show)
+  
   const filterTask = () => {
-      if (show === ' done') {
+      if (show === 'done') {
           return todos.filter((todo) => todo.Done === true)
       }
       if (show === 'notDone') {
