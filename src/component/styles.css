@@ -1,0 +1,65 @@
+.page{
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/26/06/20/desktop-3261768_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.addt{
+    padding-top: 30px;
+}
+
+.btn{
+    padding-top: 20px;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-filter{
+    display: flex;
+    justify-content: center;
+}
+
+.filter .btn-filter Button{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 12px;
+}
+
+.calendar{
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/26/06/20/desktop-3261768_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 290px;
+}
+
+.Task{
+    display: flex;
+    justify-content: center;
+}
+
+.Task-content-elment{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
