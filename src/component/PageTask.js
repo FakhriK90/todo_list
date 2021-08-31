@@ -6,6 +6,7 @@ import './styles.css';
 const PageTask = () => {
     return (
         <div className="page">
+            <h1 className="fade-in-fade-out">Manage Tasks</h1>
             <AddTask/>
             <ListTask/>
         </div>

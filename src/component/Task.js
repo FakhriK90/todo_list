@@ -27,6 +27,8 @@ const Task = ({ todo }) => {
 
   return (
     <div className="Task">
+
+      
       
         <div className="Task-content">
           {edit ? (
